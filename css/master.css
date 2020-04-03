@@ -1,11 +1,15 @@
-/* section {
-  min-height: 99vh ;
-} */
+
 #name {
   color: #91393a;
   text-align: center;
   margin-right: 1em;
   padding-top: 0;
+  text-align: center;
+  margin-right: 1em;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1 {
@@ -15,19 +19,36 @@ h1 {
   color: #91393a;
 }
 
-#name {
-  color: #91393a;
-  text-align: center;
-  margin-right: 1em;
-}
 
 li {
   margin-left: 1.5em;
 }
 
-#aboutme {
-  padding : 5em;
-  background: url('image/fond.pdf');
+.phraseintro {
+background-color: #91393a;
+color: white;
+text-align: center;
+}
+
+
+
+#containerpre {
+  margin-top: 1.5em;
+  margin-left: 22em;
+  margin-right: 22em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#containerpre img {
+  width: 2000px;
+}
+
+#text {
+  text-align: left;
+  margin-left: 4em;
 }
 
 .presentation {
@@ -37,11 +58,14 @@ li {
 
 .presentation h1 {
   padding-top: 0;
+  text-align: left;
 }
 
 .presentation h2 {
   padding: 1em;
+  text-align: left;
 }
+
 
 .bords-ronds {
   border-radius: 7px;
@@ -49,7 +73,6 @@ li {
 
 
 #main-menu {
-background: #FFF0E8;
 position: absolute;
 top: 0;
 left: -400px;
@@ -90,7 +113,7 @@ nav a{
 }
 
 #main-menu:target + .backdrop {
-  background:#522121;
+  background:#FFFFFF;
   position: absolute;
   top: 0;
   left: 0;
@@ -116,6 +139,11 @@ justify-content: space-evenly;
 }
 }
 
+
+#projects {
+  margin-top: 3em;
+}
+
 .project-feature-container {
   padding: 1em;
   margin : 0 auto;
@@ -132,7 +160,9 @@ justify-content: space-evenly;
   flex-grow: 0;
 }
 
-
+#photo{
+  margin-top: 3em;
+}
 
 .photo-feature-container{
   padding: 5em;
@@ -165,25 +195,24 @@ justify-content: space-evenly;
   padding: 1em;
 }
 
-/* #me {
-  border-radius:100px;
-  width:100px;
-  height:100px;
-  margin : 0 auto;
-} */
 
 #contacts {
   text-align: center;
-  background: #FFF0E8;
   color : #91393a ;
-  padding-bottom: 3em;
+  margin-top: 11em;
+  margin-left: 22em;
+  margin-right: 22em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  display: flex;
+  flex-wrap: wrap;
 
-}
-
-#contacts h1 {
-margin-bottom: 0.5em;
 }
 
 #contacts p {
-padding-top: 2em;
+  padding : 3em;
 }
