@@ -13,6 +13,14 @@ nav a {
   font-weight : 700;
 }
 
+
+.phraseintro{
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 2em;
+}
+
+
 .presentation {
   font-family: 'Montserrat';
   font-size: 1em;
@@ -37,7 +45,7 @@ h2 {
 
 p {
   font-family: 'Montserrat';
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .photo-feature h2 {
@@ -49,6 +57,7 @@ p {
 
 .photo-feature a {
   font-family: 'Montserrat';
+  font-size: 1em;
 }
 
 #contacts {
@@ -61,4 +70,14 @@ p {
   font-family: 'Gotu';
   font-size: 5em;
   line-height: 1px;
+}
+
+
+#texttruck h1 {
+ font-size: 1.5em;
+}
+
+.back {
+  font-family: 'Gotu';
+  font-size: 1em;
 }
